@@ -1,0 +1,57 @@
+2017-12-29 10:25:57.453 [main] INFO  z.d.s.boot_feature.MainApplicion -No active profile set, falling back to default profiles: default
+2017-12-29 10:25:59.811 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2017-12-29 10:25:59.813 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-12-29 10:26:00.173 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-12-29 10:26:00.180 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2017-12-29 10:26:01.255 [localhost-startStop-1] INFO  c.s.j.s.i.a.WebApplicationImpl -Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2017-12-29 10:26:01.523 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+2017-12-29 10:26:01.525 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+2017-12-29 10:26:01.689 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+2017-12-29 10:26:01.690 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+2017-12-29 10:26:03.008 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration -No spring.application.name found, defaulting to 'application'
+2017-12-29 10:26:03.014 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2017-12-29 10:26:03.015 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-12-29 10:26:03.023 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2017-12-29 10:26:03.024 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-12-29 10:26:04.864 [main] INFO  c.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+2017-12-29 10:26:04.865 [main] INFO  c.netflix.discovery.DiscoveryClient -Client configured to neither register nor query for data.
+2017-12-29 10:26:04.880 [main] INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1514514364880 with initial instances count: 0
+2017-12-29 10:26:04.986 [main] INFO  c.n.e.DefaultEurekaServerContext -Initializing ...
+2017-12-29 10:26:04.989 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes -Adding new peer nodes [http://10.241.95.106:1111/eureka/, http://10.241.95.107:1111/eureka/]
+2017-12-29 10:26:05.385 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+2017-12-29 10:26:05.385 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+2017-12-29 10:26:05.385 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+2017-12-29 10:26:05.385 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+2017-12-29 10:26:05.542 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+2017-12-29 10:26:05.543 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+2017-12-29 10:26:05.543 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+2017-12-29 10:26:05.543 [main] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+2017-12-29 10:26:05.631 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes -Replica node URL:  http://10.241.95.106:1111/eureka/
+2017-12-29 10:26:05.631 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes -Replica node URL:  http://10.241.95.107:1111/eureka/
+2017-12-29 10:26:05.641 [main] INFO  c.n.e.r.AbstractInstanceRegistry -Finished initializing remote region registries. All known remote regions: []
+2017-12-29 10:26:05.642 [main] INFO  c.n.e.DefaultEurekaServerContext -Initialized
+2017-12-29 10:26:06.346 [Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Got 1 instances from neighboring DS node
+2017-12-29 10:26:06.346 [Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Renew threshold is: 1
+2017-12-29 10:26:06.347 [Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Changing status to UP
+2017-12-29 10:26:06.448 [main] INFO  z.d.s.boot_feature.MainApplicion -Started MainApplicion in 11.006 seconds (JVM running for 11.731)
+2017-12-29 10:26:34.512 [http-nio-1111-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-29 10:26:39.660 [http-nio-1111-exec-2] INFO  z.d.s.b.web.WelcomeController -info
+2017-12-29 10:26:39.660 [http-nio-1111-exec-2] WARN  z.d.s.b.web.WelcomeController -warn
+2017-12-29 10:26:39.661 [http-nio-1111-exec-2] ERROR z.d.s.b.web.WelcomeController -error
+2017-12-29 10:27:06.348 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2017-12-29 10:27:44.849 [http-nio-1111-exec-8] DEBUG z.d.s.b.d.UserMapper.insertSelective -==>  Preparing: insert into user ( name, birthday, address ) values ( ?, ?, ? ) 
+2017-12-29 10:27:44.875 [http-nio-1111-exec-8] DEBUG z.d.s.b.d.UserMapper.insertSelective -==> Parameters: gzm(String), 1999-04-11(Date), jutailu(String)
+2017-12-29 10:27:44.878 [http-nio-1111-exec-8] DEBUG z.d.s.b.d.UserMapper.insertSelective -<==    Updates: 1
+2017-12-29 10:27:44.880 [http-nio-1111-exec-8] DEBUG z.d.s.b.d.U.insertSelective!selectKey -==>  Preparing: SELECT LAST_INSERT_ID() 
+2017-12-29 10:27:44.880 [http-nio-1111-exec-8] DEBUG z.d.s.b.d.U.insertSelective!selectKey -==> Parameters: 
+2017-12-29 10:27:44.893 [http-nio-1111-exec-8] DEBUG z.d.s.b.d.U.insertSelective!selectKey -<==      Total: 1
+2017-12-29 10:28:06.348 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2017-12-29 10:29:06.348 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2017-12-29 10:30:06.349 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2017-12-29 10:31:06.348 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2017-12-29 10:32:06.348 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2017-12-29 10:33:06.348 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2017-12-29 10:34:06.348 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2017-12-29 10:35:06.348 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2017-12-29 10:36:06.348 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2017-12-29 10:37:06.348 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
